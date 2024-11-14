@@ -52,6 +52,6 @@ for (let i = 0; i < buttons.length; i++) {
 // })
 
 // האזנה למסמך ללחיצות על המקלדת
-// addEventListener("keydown", function (e) {
-//   playSound(e.key)
-// })
+addEventListener("keydown", function (e) {
+  playSound(e.key)
+})
